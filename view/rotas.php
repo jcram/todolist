@@ -31,7 +31,8 @@ Route::configurar('update', function(){
 	
 });
 
-
+//Testa se segundo parâmetro for um id então quer dizer que veio da view de apresentação da tabela e deve ser apresentado o formulário
+//Se o segundo parametro for a palavra "delete" redirecionar para a página princiapal
 Route::configurar('delete', function(){
 	if ($_GET["id"] == "delete")
 	{

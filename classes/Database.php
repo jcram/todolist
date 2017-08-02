@@ -1,5 +1,4 @@
 <?php
-
 /**
 *@author Júlia Catarina R. e A. de Almeida <juc.amarante@gmail.com>
 * Classe para conexão e requisições no banco

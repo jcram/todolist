@@ -14,6 +14,7 @@
     <link  rel="stylesheet" type="text/css"  href="<?php echo BASE_URL?>css/font-awesome.min.css">
     <!-- Style -->
     <link  rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/style.css">
+    <link  rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/table.css">
 </head>
 
 
