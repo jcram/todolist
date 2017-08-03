@@ -2,23 +2,23 @@
 require_once('controller' . DIRECTORY_SEPARATOR . 'Tarefa.php');
 
 //Redireciana para a view
-Route::configurar('create', function(){
+Rota::configurar('create', function(){
 	Tarefa::create();
 });
 
 //Redireciona para a função de inserção
-Route::configurar('insert', function(){
+Rota::configurar('insert', function(){
 	Tarefa::insert();
 });
 
 //Redireciona para a função read e posteriormente para a view de apresentação da tabela
-Route::configurar('read', function(){
+Rota::configurar('read', function(){
 	Tarefa::read();
 });
 
 //Testa se segundo parâmetro for um id então quer dizer que veio da view de apresentação da tabela e deve ser apresentado o formulário
 //Se o segundo parametro for a palavra "atualiza" significa que veio o href do botão no formulário de atualização
-Route::configurar('update', function(){
+Rota::configurar('update', function(){
 
 	if ($_GET["id"] == "atualiza")
 	{
@@ -33,7 +33,7 @@ Route::configurar('update', function(){
 
 //Testa se segundo parâmetro for um id então quer dizer que veio da view de apresentação da tabela e deve ser apresentado o formulário
 //Se o segundo parametro for a palavra "delete" redirecionar para a página princiapal
-Route::configurar('delete', function(){
+Rota::configurar('delete', function(){
 	if ($_GET["id"] == "delete")
 	{
 		Tarefa::read();

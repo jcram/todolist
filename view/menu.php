@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <a href="index.html"><img src="<?php echo BASE_URL?>images/logotek.png" alt=""></a>
+                <a href="https://www.teknisa.com/"><img src="<?php echo BASE_URL?>images/logotek.png" alt=""></a>
             </div>
             <div class="col-lg-8 col-md-4 col-sm-12 col-xs-12">
                 <div class="navigation">
@@ -15,7 +15,6 @@
                             <li class="active"><a title="Ver" href="read" ">Tarefas</a></li>
                             <li><a href="create" title="Criar">Criar tarefa</a> </li>
                             <?php endif ?>         
-                            <li><a href="styleguide.html" title="Styleguide">styleguide</a> </li>
                         </ul>
                     </div>
                 </div>

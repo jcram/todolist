@@ -2,9 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-   
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>To Do LIST</title>
+    <title>to-do-list</title>
     <meta http-equiv=”content-type” content=”text/html;charset=utf-8″ />
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL?>css/bootstrap.min.css" >
