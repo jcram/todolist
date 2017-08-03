@@ -3,20 +3,6 @@
 <div class="content">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="widget widget-contact">
-                        <!-- Instruções-->
-                        <h3 class="widget-title">Instruções:</h3>
-                            <strong>Tarefa:</strong>
-                            <br> Insira a desrição da tarefa
-                            <br> Insira a prioridade da tarefa 
-                            <BR>- Pouca - Média ou Muita
-                            <br> Insira uma data prevista para término (você pode alterar depois)
-                            <strong></strong>
-                            <br>
-                         <!-- Fim instruções -->
-                    </div>
-                </div>
                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
