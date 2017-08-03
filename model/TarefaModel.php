@@ -48,7 +48,6 @@ class TarefaModel
 			$query = 'SELECT * FROM tb_tarefa';
 			return $database->query($query);
 		}
-
 	}
 
 
@@ -83,7 +82,5 @@ class TarefaModel
 		//Realiza a atualização no banco de dados
 		$database->query($query);
 	}
-
-
 }
 ?>
