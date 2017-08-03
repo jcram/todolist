@@ -49,7 +49,7 @@
 					<?php endif ?>
 				<?php endforeach?>
 
-				 <?php if ($_GET["url"] == "delete"): ?>      
+				 <?php if ($_GET["url"] == "delete" || $_GET["url"] == "update" ): ?> 
 					<td><a href="../update/<?php echo $registro["id_tarefa"]?>" class="btn btn-default btn-xs mb10">Editar</a></td>
 					<td><a href="../delete/<?php echo $registro["id_tarefa"]?>" class="btn btn-primary btn-xs">Excluir</a></td>
 				<?php else: ?>  
