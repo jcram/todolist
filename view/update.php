@@ -73,7 +73,7 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label" for="textarea">Observação</label>
-                                        <textarea class="form-control" id="textarea" name="observacao" rows="6" value=""><?php echo $_SESSION["dados"]["obs_tarefa"]; ?>"</textarea>
+                                        <textarea class="form-control" id="textarea" name="observacao" rows="6" value=""><?php echo $_SESSION["dados"]["obs_tarefa"]; ?></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">

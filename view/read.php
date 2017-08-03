@@ -35,7 +35,6 @@
 				<tr>     
 				<?php foreach ($registro as $key => $value): ?>   
 					<?php if($key == "desc_prioridade"): ?>
-
 						<?php if($value == "1"): ?>		
 							<td style="color:green"><?php echo "Baixa"?></td>
 						<?php endif ?>		
@@ -62,8 +61,6 @@
 				<?php endforeach ?>   
 			</table>
 		<?php endif ?>
-
-
         </div>
     </div>
 </div>

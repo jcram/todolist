@@ -85,7 +85,7 @@ class Tarefa extends Controller
 		$model = new TarefaModel();
 		$model->update($_POST);
 		//Retorna mensagem de sucesso
-		include('./view'. DIRECTORY_SEPARATOR . 'create.php');
+		self::read();
 		echo '<script> alert("Tarefa atualizada com sucesso");</script>';
 	}
 
